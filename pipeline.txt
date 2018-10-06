@@ -1,0 +1,25 @@
+The model takes input from training and test data and outputs the result 
+in the file named 'submission_simple_keras_starter.csv'.
+
+We ran out model in Kaggle. We used keras to implement our model.
+
+Our model has an inception layer at first. This layer merges three convolutional 
+layers who has 64 filters each and whose filter sizes are 1*1, 3*3, and 5*5.
+
+Then we have 8 convolutional layers with maxpool layers. 
+
+First two convolutional layers have 32 filters of size 5*5.
+Then we added a max-pool layer.
+
+The next two convolutional layers have 64 filters of size 3*3.
+Then we added a max-pool layer.
+
+The next two convolutional layers have 128 filters of size 3*3.
+Then we added a max-pool layer.
+
+The next two convolutional layers have 256 filters of size 3*3.
+Then we added a max-pool layer.
+
+After that we added two dense layers of size 64 and 10.
+
+
